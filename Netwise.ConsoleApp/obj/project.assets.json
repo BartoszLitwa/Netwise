@@ -431,6 +431,15 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
@@ -571,9 +580,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Netwise.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Netwise.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Netwise.Domain.dll": {}
+        }
+      },
       "Netwise.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
         "compile": {
           "bin/placeholder/Netwise.Infrastructure.dll": {}
         },
@@ -1212,6 +1234,33 @@
         "version.txt"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "System.Buffers/4.5.1": {
       "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
       "type": "package",
@@ -1530,6 +1579,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Netwise.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Netwise.Domain/Netwise.Domain.csproj",
+      "msbuildProject": "../Netwise.Domain/Netwise.Domain.csproj"
+    },
     "Netwise.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Netwise.Infrastructure/Netwise.Infrastructure.csproj",
@@ -1539,6 +1593,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.Extensions.Hosting >= 6.0.1",
+      "Netwise.Domain >= 1.0.0",
       "Netwise.Infrastructure >= 1.0.0"
     ]
   },
@@ -1577,6 +1632,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "E:\\Development\\Projects\\Netwise\\Netwise.Domain\\Netwise.Domain.csproj": {
+              "projectPath": "E:\\Development\\Projects\\Netwise\\Netwise.Domain\\Netwise.Domain.csproj"
+            },
             "E:\\Development\\Projects\\Netwise\\Netwise.Infrastructure\\Netwise.Infrastructure.csproj": {
               "projectPath": "E:\\Development\\Projects\\Netwise\\Netwise.Infrastructure\\Netwise.Infrastructure.csproj"
             }

@@ -8,7 +8,10 @@ namespace Netwise.Infrastructure.Services.FileHandler
 {
     public interface IFileHandler
     {
-        Task CreateNewFile(string name);
-        Task WriteToFile(string name);
+        void SetupClient(string path);
+        void CreateNewFile();
+        Task AppendToFile(string content);
+        Task WriteToFile(string content);
+        Task<string[]> ReadAllFromFile();
     }
 }

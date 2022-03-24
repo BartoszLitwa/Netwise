@@ -2,7 +2,6 @@ E:\Development\Projects\Netwise\Netwise.Domain\bin\Debug\net5.0\Netwise.Domain.d
 E:\Development\Projects\Netwise\Netwise.Domain\bin\Debug\net5.0\Netwise.Domain.dll
 E:\Development\Projects\Netwise\Netwise.Domain\bin\Debug\net5.0\ref\Netwise.Domain.dll
 E:\Development\Projects\Netwise\Netwise.Domain\bin\Debug\net5.0\Netwise.Domain.pdb
-E:\Development\Projects\Netwise\Netwise.Domain\obj\Debug\net5.0\Netwise.Domain.csproj.AssemblyReference.cache
 E:\Development\Projects\Netwise\Netwise.Domain\obj\Debug\net5.0\Netwise.Domain.GeneratedMSBuildEditorConfig.editorconfig
 E:\Development\Projects\Netwise\Netwise.Domain\obj\Debug\net5.0\Netwise.Domain.AssemblyInfoInputs.cache
 E:\Development\Projects\Netwise\Netwise.Domain\obj\Debug\net5.0\Netwise.Domain.AssemblyInfo.cs

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KDKHlFWEswfPO1zKB+D1g9uADlBJ+ptFaZSfBbgVNcQnNb2veV6HHKlNQdnTlZEBjxz14cQWh5aG1GnmDNLZoA==",
+  "dgSpecHash": "i4ve2KiSyxxpKN3FkB9VqngUlJiUaoU+hwi7jyKSTAjBxW23U/v6Gwtzq2jQRMh7BbjlZw5WIuWFfVewi3dKAQ==",
   "success": true,
   "projectFilePath": "E:\\Development\\Projects\\Netwise\\Netwise.WebApp\\Netwise.WebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\barto\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -30,6 +30,7 @@ E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Microsoft.Ex
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\System.Diagnostics.EventLog.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
@@ -37,7 +38,9 @@ E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\System.Text.
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\System.Text.Json.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.Messages.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Diagnostics.EventLog.dll
+E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Netwise.Domain.dll
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Netwise.Infrastructure.dll
+E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Netwise.Domain.pdb
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\bin\Debug\net5.0\Netwise.Infrastructure.pdb
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\obj\Debug\net5.0\Netwise.ConsoleApp.csproj.AssemblyReference.cache
 E:\Development\Projects\Netwise\Netwise.ConsoleApp\obj\Debug\net5.0\Netwise.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig

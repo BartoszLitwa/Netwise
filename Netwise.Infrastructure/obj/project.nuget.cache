@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpGldOOXRi7Mlnyo6wAPoJ/0hX9FxyiDwF3wOK+JiAQVbz1uYpZuQZc/kpzCaa3Hn/nEnRKIaJ6UsfAFz1O8IA==",
+  "dgSpecHash": "fiGp4dir+V8uQMG6Zts0pdZyU8AkY/rFrglKDcKmKcP53YR4gLiLqJQi8MIkXOuROM7AdCqiZ1HXvKQ5QguaWQ==",
   "success": true,
   "projectFilePath": "E:\\Development\\Projects\\Netwise\\Netwise.Infrastructure\\Netwise.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\barto\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

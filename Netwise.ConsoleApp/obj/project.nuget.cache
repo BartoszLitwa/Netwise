@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+wnp57dNeGbS6NODEuwFCp06NZ6ef9PxxC5oAicOufiqBCEYyofye70G9/QnedzJiIql93VOZjE7Bx000aWMFQ==",
+  "dgSpecHash": "rRfb/oeHepwUHq2rj53K5UoFo02wIa3r3HCfuL1XuaKZmb6TZ5COIoWj4iyPPFPnQiqP76KZbgiaIIzt+fCsXg==",
   "success": true,
   "projectFilePath": "E:\\Development\\Projects\\Netwise\\Netwise.ConsoleApp\\Netwise.ConsoleApp.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\barto\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\barto\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\barto\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
