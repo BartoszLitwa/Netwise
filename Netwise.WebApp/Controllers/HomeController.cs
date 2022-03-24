@@ -16,6 +16,10 @@ namespace Netwise.WebApp.Controllers
             this.client = client;
             this.fileHandler = fileHandler;
         }
+        public async Task<IActionResult> Index()
+        {
+            return View("SendRequest");
+        }
 
         public async Task<IActionResult> SendRequest()
         {

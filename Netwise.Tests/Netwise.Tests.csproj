@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Netwise.Domain\Netwise.Domain.csproj" />
     <ProjectReference Include="..\Netwise.Infrastructure\Netwise.Infrastructure.csproj" />
   </ItemGroup>
 

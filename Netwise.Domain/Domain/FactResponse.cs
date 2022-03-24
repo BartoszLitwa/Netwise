@@ -10,7 +10,7 @@ namespace Netwise.Domain.Domain
     public class FactResponse
     {
         public string Fact { get; set; }
-        public int Length { get; set; }
+        public int Length { get; set; } 
     }
 
 }

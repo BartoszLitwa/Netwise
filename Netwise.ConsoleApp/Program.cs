@@ -55,7 +55,7 @@ namespace Netwise.ConsoleApp
                 }
 
                 // Read and take first letter
-                key = Console.ReadLine()[0];
+                key = Console.ReadLine()[0]; 
             }
         }
 

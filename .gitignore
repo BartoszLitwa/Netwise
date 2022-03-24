@@ -16,6 +16,10 @@
 # Mono auto generated files
 mono_crash.
 
+bin
+obj
+packages
+
 # Build results
 [Dd]ebug
 [Dd]ebugPublic
@@ -36,7 +40,7 @@ bld
 # Visual Studio 20152017 cacheoptions directory
 .vs
 # Uncomment if you have tasks that create the project's static files in wwwroot
-#wwwroot
+wwwroot
 
 # Visual Studio 2017 auto generated files
 Generated Files

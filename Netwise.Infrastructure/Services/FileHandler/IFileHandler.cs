@@ -12,6 +12,6 @@ namespace Netwise.Infrastructure.Services.FileHandler
         void CreateNewFile();
         Task AppendToFile(string content);
         Task WriteToFile(string content);
-        Task<string[]> ReadAllFromFile();
+        Task<string[]> ReadAllFromFile(); 
     }
 }
