@@ -1,0 +1,12 @@
+E:\Development\Projects\Netwise\Netwise.Infrastructure\bin\Debug\net5.0\Netwise.Infrastructure.deps.json
+E:\Development\Projects\Netwise\Netwise.Infrastructure\bin\Debug\net5.0\Netwise.Infrastructure.dll
+E:\Development\Projects\Netwise\Netwise.Infrastructure\bin\Debug\net5.0\ref\Netwise.Infrastructure.dll
+E:\Development\Projects\Netwise\Netwise.Infrastructure\bin\Debug\net5.0\Netwise.Infrastructure.pdb
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.csproj.AssemblyReference.cache
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.AssemblyInfoInputs.cache
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.AssemblyInfo.cs
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.dll
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\ref\Netwise.Infrastructure.dll
+E:\Development\Projects\Netwise\Netwise.Infrastructure\obj\Debug\net5.0\Netwise.Infrastructure.pdb

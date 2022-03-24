@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwise.WebApp", "Netwise.WebApp\Netwise.WebApp.csproj", "{8C691CC1-A0C6-4FA1-A9AA-016486688F66}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwise.ConsoleApp", "Netwise.ConsoleApp\Netwise.ConsoleApp.csproj", "{63FBEC05-B386-4914-9FCB-99EA699BDE3E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwise.Tests", "Netwise.Tests\Netwise.Tests.csproj", "{59B74D46-DC37-4967-A189-E35F93F057A9}"
@@ -13,16 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwise.Domain", "Netwise.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwise.Infrastructure", "Netwise.Infrastructure\Netwise.Infrastructure.csproj", "{033C5F75-7199-418E-B9D7-880688DC3123}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netwise.WebApp", "Netwise.WebApp\Netwise.WebApp.csproj", "{4ECF6A6C-CF16-48B4-AD4C-AC48E62C5367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C691CC1-A0C6-4FA1-A9AA-016486688F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C691CC1-A0C6-4FA1-A9AA-016486688F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C691CC1-A0C6-4FA1-A9AA-016486688F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C691CC1-A0C6-4FA1-A9AA-016486688F66}.Release|Any CPU.Build.0 = Release|Any CPU
 		{63FBEC05-B386-4914-9FCB-99EA699BDE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{63FBEC05-B386-4914-9FCB-99EA699BDE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63FBEC05-B386-4914-9FCB-99EA699BDE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{033C5F75-7199-418E-B9D7-880688DC3123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{033C5F75-7199-418E-B9D7-880688DC3123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{033C5F75-7199-418E-B9D7-880688DC3123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECF6A6C-CF16-48B4-AD4C-AC48E62C5367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECF6A6C-CF16-48B4-AD4C-AC48E62C5367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECF6A6C-CF16-48B4-AD4C-AC48E62C5367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECF6A6C-CF16-48B4-AD4C-AC48E62C5367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

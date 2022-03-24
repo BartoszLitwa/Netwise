@@ -8,6 +8,11 @@ namespace Netwise.Infrastructure.Services.FileHandler
 {
     public class FileHandler : IFileHandler
     {
+        public FileHandler()
+        {
+
+        }
+
         public Task CreateNewFile(string name)
         {
             throw new NotImplementedException();

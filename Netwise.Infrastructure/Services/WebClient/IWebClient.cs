@@ -8,7 +8,7 @@ namespace Netwise.Infrastructure.Services.WebClient
 {
     public interface IWebClient
     {
-        Task SetupClient(string baseAddress);
-        Task GetJsonResponse(string endpoint);
+        void SetupClient(string baseAddress);
+        Task<T> GetJsonResponse<T>(string endpoint);
     }
 }
