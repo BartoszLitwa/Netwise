@@ -1,6 +1,11 @@
-﻿@{
+﻿@model string[]
+
+@{
     ViewData["Title"] = "Read From File";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>ReadFromFile</p>
+@foreach(var i in Model)
+{
+    <p>@i</p>
+}

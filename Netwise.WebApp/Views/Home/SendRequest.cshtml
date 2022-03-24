@@ -1,7 +1,10 @@
-﻿@{
+﻿@using Netwise.Domain.Domain
+@model FactResponse
+
+@{
     ViewData["Title"] = "Send Request";
 }
 
 <div class="text-center">
-    
+    <p>@Model.Length : @Model.Fact</p>
 </div>

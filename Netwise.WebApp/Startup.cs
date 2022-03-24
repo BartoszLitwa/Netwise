@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Netwise.Infrastructure.Services.FileHandler;
 using Netwise.Infrastructure.Services.WebClient;
+using System.IO;
 
 namespace Netwise.WebApp
 {
@@ -23,7 +24,7 @@ namespace Netwise.WebApp
             services.AddControllersWithViews();
             // Important to use AddHttpClient to pass in constructor HttpClient
             services.AddHttpClient<IWebClient, WebClient>();
-            services.AddSingleton<IFileHandler, FileHandler>();
+            services.AddSingleton<IFileHandler>(new FileHandler(Directory.GetCurrentDirectory() + "/Responses.txt"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

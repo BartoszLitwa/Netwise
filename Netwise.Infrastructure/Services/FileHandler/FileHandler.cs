@@ -11,6 +11,11 @@ namespace Netwise.Infrastructure.Services.FileHandler
     {
         private string path;
 
+        public FileHandler(string path)
+        {
+            this.path = path;
+        }
+
         public FileHandler()
         {
 
