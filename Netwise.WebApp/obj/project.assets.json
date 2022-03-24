@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Netwise.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Netwise.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Netwise.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Netwise.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Netwise.Infrastructure/Netwise.Infrastructure.csproj",
+      "msbuildProject": "../Netwise.Infrastructure/Netwise.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Netwise.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\barto\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Development\\Projects\\Netwise\\Netwise.Infrastructure\\Netwise.Infrastructure.csproj": {
+              "projectPath": "E:\\Development\\Projects\\Netwise\\Netwise.Infrastructure\\Netwise.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
