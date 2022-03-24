@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using Netwise.Infrastructure.Services.FileHandler;
 using Netwise.Infrastructure.Services.WebClient;
+using System.Threading.Tasks;
 
 namespace Netwise.WebApp.Controllers
 {
@@ -16,14 +17,14 @@ namespace Netwise.WebApp.Controllers
             this.fileHandler = fileHandler;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> SendRequest()
         {
-            return View();
+            return View("SendRequest");
         }
 
-        public IActionResult SendRequest()
+        public async Task<IActionResult> ReadFromFile()
         {
-            return View();
+            return View("ReadFromFile");
         }
     }
 }

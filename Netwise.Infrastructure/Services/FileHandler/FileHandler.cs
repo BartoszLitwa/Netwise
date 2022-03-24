@@ -18,6 +18,7 @@ namespace Netwise.Infrastructure.Services.FileHandler
 
         public void CreateNewFile()
         {
+            // Important to close the file after using it to prevent from being "used by other process"
             using var file = File.Create(path);
         }
 
